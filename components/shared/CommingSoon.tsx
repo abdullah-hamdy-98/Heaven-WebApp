@@ -6,8 +6,9 @@ import { motion } from "framer-motion";
 function CommingSoon() {
     return (
         <div>
-            <header className="lg:px-36 lg:py-16 px-24 py-12">
-                <div className="flex-1">
+            {/* Header */}
+            <header className="flex justify-center px-6 py-12 md:px-12 md:py-8 lg:px-36 lg:py-16 lg:block lg:text-center">
+                <div className="flex items-center">
                     <Image
                         src="/logo/logo.png"
                         alt="Site Logo"
@@ -18,12 +19,13 @@ function CommingSoon() {
                 </div>
             </header>
 
-            <div className="flex items-center justify-center lg:pt-22 pt-0">
-                <div className="flex flex-col lg:flex-row justify-center gap-6 mr-8">
+            {/* Main Content */}
+            <main className="flex items-center justify-center">
+                <div className="flex flex-col lg:flex-row items-center gap-12">
                     {/* Left Section */}
-                    <div className="flex-1 text-center lg:text-left ml-12">
+                    <div className="flex-1 text-center lg:text-center">
                         <motion.h1
-                            className="lg:text-heading1-bold lg:ml-4 pb-2 text-blue-1 text-heading1-mob"
+                            className="lg:text-heading1-bold text-blue-1 text-heading1-mob"
                             initial={{ opacity: 0, y: -20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }}
@@ -32,7 +34,7 @@ function CommingSoon() {
                         </motion.h1>
 
                         <motion.h2
-                            className="lg:text-heading2-bold ml-2 text-gray-1 uppercase text-heading2-mob"
+                            className="lg:text-heading2-bold text-gray-1 uppercase text-heading2-mob"
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 1, delay: 0.2 }}
@@ -64,12 +66,12 @@ function CommingSoon() {
                                 alt="Under Construction Illustration"
                                 width={550}
                                 height={1200}
-                                className="mx-auto lg:mx-0 lg:w-max w-fit ml-4"
+                                className="mx-auto max-w-full lg:w-auto"
                             />
                         </motion.div>
                     </div>
                 </div>
-            </div>
+            </main>
         </div>
     );
 }

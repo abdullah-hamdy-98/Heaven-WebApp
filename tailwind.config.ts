@@ -17,7 +17,7 @@ module.exports = {
     },
     fontSize: {
       "heading1-bold": [
-        "150px",
+        "140px",
         {
           lineHeight: "140%",
           fontWeight: "1000",
@@ -52,17 +52,17 @@ module.exports = {
         },
       ],
       "heading3-mob": [
-        "14px",
+        "12px",
         {
           lineHeight: "140%",
           fontWeight: "400",
         },
       ],
       "heading2-bold": [
-        "40px",
+        "36px",
         {
-          lineHeight: "120%",
-          fontWeight: "700",
+          lineHeight: "140%",
+          fontWeight: "1000",
         },
       ],
       "heading2-semibold": [
@@ -73,7 +73,7 @@ module.exports = {
         },
       ],
       "heading2-regular": [
-        "20px",
+        "17px",
         {
           lineHeight: "140%",
           fontWeight: "400",

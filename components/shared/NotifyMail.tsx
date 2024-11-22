@@ -36,7 +36,7 @@ function Notify() {
     };
 
     return (
-        <div className="flex flex-col items-center mt-10 lg:mr-32">
+        <div className="flex flex-col items-center mt-10">
             
             <div className="flex items-center lg:w-full max-w-md space-x-2">
                 <div className="relative flex-grow">
