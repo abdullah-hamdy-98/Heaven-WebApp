@@ -37,6 +37,7 @@ function Notify() {
 
     return (
         <div className="flex flex-col items-center mt-10 lg:mr-32">
+            
             <div className="flex items-center w-full max-w-md space-x-2">
                 <div className="relative flex-grow">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
@@ -61,7 +62,7 @@ function Notify() {
                     />
                 </div>
                 <button
-                    className="bg-blue-1 p-2.5 text-white px-4 py-2 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-out"
+                    className="bg-blue-1 p-2.5 text-white px-4 py-2 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
                     onClick={handleNotifyClick}
                 >
                     Notify Me

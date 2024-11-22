@@ -30,6 +30,27 @@ module.exports = {
           fontWeight: "600",
         },
       ],
+    "heading1-mob": [
+      "82px",
+      {
+        lineHeight: "140%",
+        fontWeight: "1000",
+      },
+    ],
+    "heading2-mob": [
+      "18px",
+      {
+        lineHeight: "140%",
+        fontWeight: "600",
+      },
+    ],
+    "heading3-mob": [
+      "12px",
+      {
+        lineHeight: "140%",
+        fontWeight: "400",
+      },
+    ],
       "heading2-bold": [
         "40px",
         {
