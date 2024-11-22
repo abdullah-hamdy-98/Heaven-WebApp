@@ -38,7 +38,7 @@ function Notify() {
     return (
         <div className="flex flex-col items-center mt-10 lg:mr-32">
             
-            <div className="flex items-center w-full max-w-md space-x-2">
+            <div className="flex items-center lg:w-full max-w-md space-x-2">
                 <div className="relative flex-grow">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
                         <svg
@@ -55,14 +55,14 @@ function Notify() {
                     <input
                         type="email"
                         id="input-group-1"
-                        className="block pl-10 p-2.5 px-4 py-3 w-full text-gray-1 text-small-regular rounded-2xl focus:outline-none focus:ring-1 focus:ring-blue-1"
+                        className="block pl-10 px-4 py-3 lg:w-full text-gray-1 text-small-regular rounded-2xl focus:outline-none focus:ring-1 focus:ring-blue-1"
                         placeholder="Enter email address"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
                 <button
-                    className="bg-blue-1 text-small-regular text-white lg:px-4 p-2.5 px-2 py-3 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
+                    className="bg-blue-1 text-small-regular text-white lg:px-4 px-1.5 py-3 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
                     onClick={handleNotifyClick}
                 >
                     Notify Me
