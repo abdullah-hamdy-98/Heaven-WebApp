@@ -62,7 +62,7 @@ function Notify() {
                     />
                 </div>
                 <button
-                    className="bg-blue-1 p-2.5 text-white px-4 py-2 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
+                    className="bg-blue-1 text-white p-2.5 px-2 py-2.25 rounded-3xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
                     onClick={handleNotifyClick}
                 >
                     Notify Me
@@ -74,7 +74,7 @@ function Notify() {
                     href="https://www.facebook.com/heavenagency0?mibextid=LQQJ4d"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-1 hover:text-blue transition duration-200"
+                    className="text-gray-1 text-Falinks-mob hover:text-blue transition duration-200"
                     aria-label="Facebook"
                 >
                     <i className="fab fa-facebook fa-x"></i>
@@ -83,7 +83,7 @@ function Notify() {
                     href="https://www.instagram.com/heavenagency.eg?igsh=ajlqbTBoM2Q0dGdt"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-1 hover:text-pink-500 transition duration-200"
+                    className="text-gray-1 text-Falinks-mob hover:text-pink-500 transition duration-200"
                     aria-label="Instagram"
                 >
                     <i className="fab fa-instagram fa-x"></i>
@@ -92,7 +92,7 @@ function Notify() {
                     href="https://www.behance.net/heavenagency2"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-1 hover:text-black transition duration-200"
+                    className="text-gray-1 text-Falinks-mob hover:text-black transition duration-200"
                     aria-label="Twitter"
                 >
                     <i className="fa-brands fa-behance"></i>

@@ -41,11 +41,18 @@ module.exports = {
       "18px",
       {
         lineHeight: "140%",
-        fontWeight: "600",
+        fontWeight: "700",
+      },
+    ],
+    "Falinks-mob": [
+      "22px",
+      {
+        lineHeight: "140%",
+        fontWeight: "400",
       },
     ],
     "heading3-mob": [
-      "12px",
+      "14px",
       {
         lineHeight: "140%",
         fontWeight: "400",
@@ -55,7 +62,7 @@ module.exports = {
         "40px",
         {
           lineHeight: "140%",
-          fontWeight: "1000",
+          fontWeight: "700",
         },
       ],
       "heading2-semibold": [
