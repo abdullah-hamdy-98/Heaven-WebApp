@@ -163,6 +163,13 @@ module.exports = {
           fontWeight: "400",
         },
       ],
+      "small-regular-mob": [
+        "12px",
+        {
+          lineHeight: "140%",
+          fontWeight: "400",
+        },
+      ],
       "small-medium": [
         "14px",
         {

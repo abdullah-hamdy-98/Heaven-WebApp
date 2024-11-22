@@ -55,14 +55,14 @@ function Notify() {
                     <input
                         type="email"
                         id="input-group-1"
-                        className="block pl-10 px-4 py-3 lg:w-full text-gray-1 text-small-regular rounded-2xl focus:outline-none focus:ring-1 focus:ring-blue-1"
+                        className="block pl-10 px-4 py-3 lg:w-full text-gray-1 lg:text-small-regular text-small-regular-mob rounded-2xl focus:outline-none focus:ring-1 focus:ring-blue-1"
                         placeholder="Enter email address"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
                 <button
-                    className="bg-blue-1 text-small-regular text-white lg:px-4 px-1.5 py-3 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
+                    className="bg-blue-1 lg:text-small-regular text-small-regular-mob text-white lg:px-4 px-1.5 py-3 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
                     onClick={handleNotifyClick}
                 >
                     Notify Me
