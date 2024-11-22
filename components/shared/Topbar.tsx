@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function Topbar() {
     return (
-        <div className="bg-light-3 py-12 px-24">
+        <div className="bg-light-3 py-12 px-28">
             <Image src='/logo/logo.png'
                 alt="Site Logo"
                 width={200}
