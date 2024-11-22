@@ -30,38 +30,38 @@ module.exports = {
           fontWeight: "600",
         },
       ],
-    "heading1-mob": [
-      "82px",
-      {
-        lineHeight: "140%",
-        fontWeight: "1000",
-      },
-    ],
-    "heading2-mob": [
-      "18px",
-      {
-        lineHeight: "140%",
-        fontWeight: "700",
-      },
-    ],
-    "Falinks-mob": [
-      "22px",
-      {
-        lineHeight: "140%",
-        fontWeight: "400",
-      },
-    ],
-    "heading3-mob": [
-      "14px",
-      {
-        lineHeight: "140%",
-        fontWeight: "400",
-      },
-    ],
+      "heading1-mob": [
+        "82px",
+        {
+          lineHeight: "140%",
+          fontWeight: "1000",
+        },
+      ],
+      "heading2-mob": [
+        "18px",
+        {
+          lineHeight: "140%",
+          fontWeight: "700",
+        },
+      ],
+      "Falinks-mob": [
+        "22px",
+        {
+          lineHeight: "140%",
+          fontWeight: "400",
+        },
+      ],
+      "heading3-mob": [
+        "14px",
+        {
+          lineHeight: "140%",
+          fontWeight: "400",
+        },
+      ],
       "heading2-bold": [
         "40px",
         {
-          lineHeight: "140%",
+          lineHeight: "120%",
           fontWeight: "700",
         },
       ],

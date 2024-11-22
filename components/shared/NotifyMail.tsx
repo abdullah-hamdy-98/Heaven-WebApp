@@ -62,7 +62,7 @@ function Notify() {
                     />
                 </div>
                 <button
-                    className="bg-blue-1 text-white p-2.5 px-2 py-2.25 rounded-3xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
+                    className="bg-blue-1 text-white lg:px-4 p-2.5 px-2 py-2.25 rounded-2xl hover:bg-dark-1 transform hover:scale-105 transition-transform duration-300 ease-in-outmax-h-4 "
                     onClick={handleNotifyClick}
                 >
                     Notify Me

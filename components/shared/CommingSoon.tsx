@@ -18,8 +18,8 @@ function CommingSoon() {
                 </div>
             </header>
 
-            <div className="flex items-center justify-center lg:pt-22 pt-4">
-                <div className="flex flex-col lg:flex-row justify-center gap-16 mr-8">
+            <div className="flex items-center justify-center lg:pt-22 pt-0">
+                <div className="flex flex-col lg:flex-row justify-center gap-6 mr-8">
                     {/* Left Section */}
                     <div className="flex-1 text-center lg:text-left ml-12">
                         <motion.h1
@@ -32,7 +32,7 @@ function CommingSoon() {
                         </motion.h1>
 
                         <motion.h2
-                            className="lg:text-heading2-bold text-gray-1 uppercase text-heading2-mob"
+                            className="lg:text-heading2-bold ml-2 text-gray-1 uppercase text-heading2-mob"
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 1, delay: 0.2 }}
@@ -62,7 +62,7 @@ function CommingSoon() {
                             <Image
                                 src="/HeroSection/BACK.png"
                                 alt="Under Construction Illustration"
-                                width={750}
+                                width={550}
                                 height={1200}
                                 className="mx-auto lg:mx-0 lg:w-max w-fit ml-4"
                             />
